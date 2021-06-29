@@ -14,6 +14,10 @@ console.log(message)
 
 let newMessage = (name) ? console.log(`Hello, ${name}!`): console.log("Hello, person!");
 
+function sayHello(name){
+    return name ? `Hello, ${name}!` : "Hello, person!";
+}
+
 
 let soldOut = true;
 let onSale = true;
@@ -24,7 +28,7 @@ if (!soldOut && onSale){
     thisMessage = "I did not get tickets!";
 }
 
-console.log(thisMessage );
+console.log(thisMessage);
 
 
 
